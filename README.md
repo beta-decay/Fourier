@@ -185,7 +185,7 @@ Example
 
 `1~yI~k(xoi^`<k{1}{44a32a}y+x~gy~xg~yi^~i)
 
-[http://fourier.tryitonline.net/#code=MX55SX5rKHhvaV48a3sxfXs0NGEzMmF9eSt4fmd5fnhnfnlpXn5pKQ&input=MzA '''Try it online!''']
+[**Try it online!**](http://fourier.tryitonline.net/#code=MX55SX5rKHhvaV48a3sxfXs0NGEzMmF9eSt4fmd5fnhnfnlpXn5pKQ&input=MzA)
 
 ==== Output ====
 
