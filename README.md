@@ -187,7 +187,7 @@ Example
 
 [**Try it online!**](http://fourier.tryitonline.net/#code=MX55SX5rKHhvaV48a3sxfXs0NGEzMmF9eSt4fmd5fnhnfnlpXn5pKQ&input=MzA)
 
-==== Output ====
+#### Output
 
 **For input `30`:**
 
