@@ -171,13 +171,13 @@ Example
 
 #### Code
 
-`33~j126(j^a~j)`
+    33~j126(j^a~j)
 
 [**Try it online!**]
 
 #### Output
 
-`` "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ``
+     "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 
 ### Fibonacci sequence
 
