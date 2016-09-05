@@ -183,40 +183,37 @@ Example
 
 #### Code
 
-`1~yI~k(xoi^`<k{1}{44a32a}y+x~gy~xg~yi^~i)
+    1~yI~k(xoi^<k{1}{44a32a}y+x~gy~xg~yi^~i)
 
 [**Try it online!**](http://fourier.tryitonline.net/#code=MX55SX5rKHhvaV48a3sxfXs0NGEzMmF9eSt4fmd5fnhnfnlpXn5pKQ&input=MzA)
 
 ==== Output ====
 
-''For input <code>`30`</code>`:''`
+**For input `30`:**
 
-`0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229`
+    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229
 
 ### Digital Clock
 
 #### Code
 
-`(@2do58a1d~S<10{1}{0o}So58a0d~S<10{1}{0o}So1;)`
+    (@2do58a1d~S<10{1}{0o}So58a0d~S<10{1}{0o}So1;)
 
 #### Output
 
 *This is just an example (output changes each second)*
 
-`16:57:06`
+    16:57:06
 
 [**Try it online!**][1]
 
 Interpreter
 -----------
 
-Find the Python interpreter [here at CodePlex].
-
-You can also find up to date two online interpreters [here] and [here][2].
+You can find two up to date online interpreters [here] and [here][2].
 
   [**Try it online!**]: http://fourier.tryitonline.net/#code=MzN-ajEyNihqXmF-aik
   [1]: https://labs.turbo.run/beta/fourier/?code=KEAyZG81OGExZH5TPDEwezF9ezBvfVNvNThhMGR-UzwxMHsxfXswb31TbzE7KQ
-  [here at CodePlex]: https://fourierlang.codeplex.com/
   [here]: http://labs.turbo.run/beta/fourier
   [2]: http://fourier.tryitonline.net
   [Stack Exchange user Beta Decay]: http://codegolf.stackexchange.com/users/30525/beta-decay
