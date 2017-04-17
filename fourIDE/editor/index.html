@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FourIDE - Editor</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<style>
+		body {
+			padding-left: 2em;
+			background-color: gainsboro
+		}
+
+        textarea, input {
+            font-family: Courier New;
+			border: none
+        }
+	</style>
+</head>
+	<body>
+		<h1><a href="http://esolangs.org/wiki/Fourier">Fourier</a> Interpreter</h1>
+		<h3>Code:</h3>
+		<textarea id="code" rows="4" oninput="javascript:chars()" cols="40"></textarea>
+		<br/>
+		Function: 
+		<select id="funcSelect">
+			<option value="exec">Execute code</option>
+			<option value="expl">Explode code</option>
+			<option value="debg">Debug code</option>
+		</select>
+		<br/>
+		<h3>Input:</h3>
+		<textarea id="input" rows="4" cols="40"></textarea>
+		<br/><br/>
+		<button id="run" onclick="javascript:main()">Engage</button>
+		<button id="clear" onclick="javascript:clearText()">Clear</button>
+		<br/>
+		Character count: <span id="ccount">0</span> characters
+		<h3>Output:</h3>
+		<textarea id="output" readonly="readonly" rows="4" cols="40" style="cursor: default;"></textarea>
+		<br/>
+		<a href="javascript:getperma()">Get permalink</a>
+		<br/>
+		<h3>Character reference</h3>
+		<h4>ASCII code reference</h4>
+		<input id="charRef" cols="40" oninput="javascript:getCharCode()">
+		<br/>
+		<input id="asciiRef" readonly="readonly" cols="40" style="background-color: #c2c2c2; cursor: default;">
+        <script src="editor.js"></script>
+		<script src="debug.js"></script>
+		<script src="interpreter.js"></script>
+		<script>
+			function main() {
+				document.getElementById("output").style.color = "black";
+				choice = document.getElementById("funcSelect").value;
+				
+				if (choice == "exec") {
+					interpreter();
+				} else if (choice == "debg") {
+					debug();
+				} else {
+					document.getElementById("output").value = "Sorry, those features are not ready yet";
+				}
+			}
+		</script>
+	</body>
+</html>
