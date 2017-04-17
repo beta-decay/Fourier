@@ -1,4 +1,4 @@
-import random, time, datetime
+import random, time, datetime, math
 
 def check():
   global accumulator, position
@@ -124,6 +124,17 @@ def check():
       subtempaccumulator = accumulator
       check()
       accumulator = subtempaccumulator - accumulator
+
+  elif code[position] == "P":
+      position += 1
+      powtempaccumulator = accumulator
+      check()
+      accumulator = int(powtempaccumulator ** accumulator)
+
+  elif code[position] == "L":
+      log = math.log10(accumulator)
+      accumulator = int(log)
+      position += 1
       
   elif code[position] == "I":
       stdin = input()
