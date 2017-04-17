@@ -94,6 +94,18 @@ Sets the accumulator to the value of the accumulator divided by the value of `x`
 
 Sets the accumulator to the remainder of the value of the accumulator divided by the value of `x`.
 
+### Power
+
+`Px`
+
+Sets the accumulator to the value of the accumulator to the power of `x`.
+
+### Log 10
+
+`xL`
+
+Sets the accumulator to the value of log 10 of the accumulator.
+
 ### Input
 
 `I`
