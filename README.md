@@ -1,5 +1,5 @@
 # Fourier
-**Fourier** is a golfing language created by [Stack Exchange user Beta Decay], with similarities to Brainfuck, but more advanced. It is still undergoing development as of August 2015.
+**Fourier** is a golfing language with a very obfuscated syntax. It is still undergoing development as of May 2017.
 
 Syntax
 ------
