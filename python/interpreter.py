@@ -20,7 +20,17 @@ def check():
 
   elif code[position] == "o":
       output+=str(accumulator)
+      Sposition += 1
+
+  elif code[position] == "`":
+    string = "";
+    position += 1;
+    while code[position] != "`":
+      string += code[position];
       position += 1
+    
+    output += string;
+    position += 1;
 
   elif code[position] == "r":
       accumulator = random.randint(0, accumulator)
@@ -29,11 +39,14 @@ def check():
   elif code[position] in "0123456789":
       try:
           n = ""
-          while code[position] in "0123456789":
+          while code[position] in "0123456789.":
               n += code[position]
               position += 1
 
-          accumulator = int(n)
+          if "." in n:
+            accumulator = float(n)
+          else:
+            accumulator = int(n)
 
       except IndexError:
           accumulator = int(n)
