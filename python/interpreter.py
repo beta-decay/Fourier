@@ -20,7 +20,7 @@ def check():
 
   elif code[position] == "o":
       output+=str(accumulator)
-      Sposition += 1
+      position += 1
 
   elif code[position] == "`":
     string = "";
