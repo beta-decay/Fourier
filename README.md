@@ -46,6 +46,12 @@ Takes the value of the accumulator as the ASCII code and outputs the character.
 
 Outputs the value of the accumulator.
 
+### Print string
+
+`\`x\``
+
+Prints the string between the backticks, e.g. `\`Hello, World!\`` outputs "Hello, World!".
+
 ### Random
 
 `r`
@@ -225,7 +231,6 @@ Interpreter
 You can find two up to date online interpreters [here] and [here][2].
 
   [**Try it online!**]: http://fourier.tryitonline.net/#code=MzN-ajEyNihqXmF-aik
-  [1]: https://labs.turbo.run/beta/fourier/?code=KEAyZG81OGExZH5TPDEwezF9ezBvfVNvNThhMGR-UzwxMHsxfXswb31TbzE7KQ
-  [here]: http://labs.turbo.run/beta/fourier
+  [1]: https://beta-decay.github.io/editor?code=KEAyZG81OGExZH5TPDEwezF9ezBvfVNvNThhMGR-UzwxMHsxfXswb31TbzE7KQ
+  [here]: http://beta-decay.github.io/editor
   [2]: http://fourier.tryitonline.net
-  [Stack Exchange user Beta Decay]: http://codegolf.stackexchange.com/users/30525/beta-decay
