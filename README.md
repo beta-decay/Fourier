@@ -48,9 +48,9 @@ Outputs the value of the accumulator.
 
 ### Print string
 
-```x```
+`` `x` ``
 
-Prints the string between the backticks, e.g. ```Hello, World!``` outputs `Hello, World!`.
+Prints the string between the backticks, e.g. `` `Hello, World!` `` outputs `Hello, World!`.
 
 ### Random
 
