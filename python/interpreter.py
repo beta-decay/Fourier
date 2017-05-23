@@ -234,4 +234,4 @@ try:
       check()
 
 except IndexError:
-  print(output)
+  print(output, end="")
