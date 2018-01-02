@@ -1,5 +1,5 @@
 # Fourier
-**Fourier** is a golfing language with a very obfuscated syntax. It is still undergoing development as of May 2017.
+**Fourier** is a golfing language with a very obfuscated syntax. It is no longer undergoing development as of January 2018. For a more usable version of Fourier, use [Noether](https://github.com/beta-decay/Noether).
 
 Syntax
 ------
